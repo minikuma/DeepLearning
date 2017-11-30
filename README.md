@@ -5,3 +5,6 @@
   - Weight, Bias 적용
   - The limits of Perceptron -> Muti-Perceptron
   - XOR Gate 구현
+2. Neural Function
+  - Step Function
+  - Sigmoid
