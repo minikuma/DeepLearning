@@ -51,13 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeuralFunction.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NeuralFunction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeuralFunction/NeuralFunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="e#201#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sigmoid.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NeuralFunction/Sigmoid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="e#319#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +96,7 @@
         <option value="$PROJECT_DIR$/Perceptron/NandGate.py" />
         <option value="$PROJECT_DIR$/Perceptron/XORGate.py" />
         <option value="$PROJECT_DIR$/NeuralFunction/NeuralFunction.py" />
+        <option value="$PROJECT_DIR$/NeuralFunction/Sigmoid.py" />
       </list>
     </option>
   </component>
@@ -121,6 +134,11 @@
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralFunction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NeuralFunction">
+  <component name="RunManager" selected="Python.Sigmoid">
     <configuration name="AndGate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,6 +219,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="Sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralFunction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralFunction/Sigmoid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="XORGate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,18 +253,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.AndGate" />
       <item index="1" class="java.lang.String" itemvalue="Python.NandGate" />
       <item index="2" class="java.lang.String" itemvalue="Python.XORGate" />
       <item index="3" class="java.lang.String" itemvalue="Python.NeuralFunction" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Sigmoid" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.NeuralFunction" />
-        <item index="1" class="java.lang.String" itemvalue="Python.XORGate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.NandGate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AndGate" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Sigmoid" />
+        <item index="1" class="java.lang.String" itemvalue="Python.NeuralFunction" />
+        <item index="2" class="java.lang.String" itemvalue="Python.XORGate" />
+        <item index="3" class="java.lang.String" itemvalue="Python.NandGate" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AndGate" />
       </list>
     </recent_temporary>
   </component>
@@ -365,10 +402,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuralFunction/NeuralFunction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="e#201#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralFunction/Sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#319#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
