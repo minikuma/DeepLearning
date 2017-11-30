@@ -1,4 +1,4 @@
-## Deep Learning from Scratch Sample Source
+## Deep Learning from Scratch Sample Source by Python
 1. Perceptron
   - AND Gate 구현
   - NAND / OR Gate 구현
