@@ -8,3 +8,5 @@
 2. Neural Function
   - Step Function
   - Sigmoid
+  - RuLU 함수
+  - 3층신경망구현
