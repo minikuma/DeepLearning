@@ -10,3 +10,4 @@
   - Sigmoid
   - ReLU 함수
   - 3층신경망구현
+  - MNIST Image Data 손글씨추론
