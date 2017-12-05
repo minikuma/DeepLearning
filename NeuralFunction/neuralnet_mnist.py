@@ -54,9 +54,25 @@ x, t = get_data()
 network = init_network()
 
 accuracy_cnt = 0
+batch_size = 100  # 배치 크기
+
+for i in range(0, len(x), batch_size):
+    x_batch = x[i:i++batch_size]         # x[0:100], [100:200], [200:300]....
+    y_batch = predict(network, x_batch)
+    p = np.argmax(y_batch, axis=1)
+    #     0   1   2
+    # 0 [0.1 0.8 0.1]   --> 최대값을 가지는 index: 1
+    # 1 [0.3 0.1 0.6]   --> 최대값을 가지는 index: 2
+    # 2 [0.2 0.5 0.3]   --> 최대값을 가지는 index: 1
+    # 3 [0.8 0.1 0.1]   --> 최대값을 가지는 index: 0
+    # p 의 값: [1 2 1 0]
+    accuracy_cnt += np.sum(p == t[i:i+batch_size])
+
+"""
 for i in range(len(x)):
     y = predict(network, x[i])
     p = np.argmax(y)
     if p == t[i]:
         accuracy_cnt += 1
+"""
 print("Accuracy:" + str(float(accuracy_cnt) / len(x)))
